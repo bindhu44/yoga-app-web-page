@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yoga Flow — Calm & Strong</title>
+
+  <!-- Replace with your Google Font or local font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">YogaFlow</a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#classes">Classes</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#instructors">Instructors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn-outline" href="#signup">Sign up</a>
+        <button id="hambtn" class="hambtn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Calm your mind. Strengthen your body.</h1>
+          <p class="lead">Online and in-person yoga classes for every level. Beginner-friendly sequences & guided meditations.</p>
+          <div class="hero-cta">
+            <a class="btn-primary" href="#classes">Explore Classes</a>
+            <a class="btn-ghost" href="#schedule">View Schedule</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <!-- Replace the placeholder with the design image/export from Figma -->
+          <img src="assets/hero-yoga.jpg" alt="Person doing yoga" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / BENEFITS -->
+    <section class="features container">
+      <div class="feature">
+        <h3>Beginner-friendly</h3>
+        <p>Step-by-step instructions & gentle classes.</p>
+      </div>
+      <div class="feature">
+        <h3>Daily Live Classes</h3>
+        <p>Live sessions with Q&A and recordings available.</p>
+      </div>
+      <div class="feature">
+        <h3>Personalized Plans</h3>
+        <p>Programs tailored to your goals and schedule.</p>
+      </div>
+    </section>
+
+    <!-- CLASSES GRID -->
+    <section id="classes" class="container classes-section">
+      <h2 class="section-title">Popular Classes</h2>
+      <div class="grid classes-grid">
+        <article class="class-card">
+          <img src="assets/class-vinyasa.jpg" alt="Vinyasa Yoga" />
+          <div class="card-body">
+            <h4>Vinyasa Flow</h4>
+            <p>Active sequence linking breath and movement — 45 min</p>
+            <div class="card-footer">
+              <span>Level: Intermediate</span>
+              <a href="#schedule" class="small-link">Join</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="class-card">
+          <img src="assets/class-hatha.jpg" alt="Hatha Yoga" />
+          <div class="card-body">
+            <h4>Hatha Basics</h4>
+            <p>Slow-paced classes focusing on alignment — 60 min</p>
+            <div class="card-footer">
+              <span>Level: Beginner</span>
+              <a href="#schedule" class="small-link">Join</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="class-card">
+          <img src="assets/class-yin.jpg" alt="Yin Yoga" />
+          <div class="card-body">
+            <h4>Yin & Meditation</h4>
+            <p>Deep stretch and guided relaxation — 30 min</p>
+            <div class="card-footer">
+              <span>Level: All</span>
+              <a href="#schedule" class="small-link">Join</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section id="schedule" class="container schedule-section">
+      <h2 class="section-title">Weekly Schedule</h2>
+      <div class="schedule-grid">
+        <div class="day">
+          <h4>Mon</h4>
+          <ul>
+            <li>6:00 — Morning Flow (Vinyasa)</li>
+            <li>18:00 — Hatha Basics</li>
+          </ul>
+        </div>
+        <div class="day">
+          <h4>Tue</h4>
+          <ul>
+            <li>7:00 — Yin & Meditation</li>
+            <li>19:00 — Power Flow</li>
+          </ul>
+        </div>
+        <div class="day">
+          <h4>Wed</h4>
+          <ul>
+            <li>6:30 — Sunrise Flow</li>
+            <li>18:30 — Restorative</li>
+          </ul>
+        </div>
+        <!-- add more days or generate dynamically -->
+      </div>
+    </section>
+
+    <!-- INSTRUCTORS -->
+    <section id="instructors" class="container people-section">
+      <h2 class="section-title">Meet the Instructors</h2>
+      <div class="grid people-grid">
+        <div class="person">
+          <img src="assets/instructor-1.jpg" alt="Instructor 1" />
+          <h4>Priya Sharma</h4>
+          <p>RYT-200 — Vinyasa & Restorative</p>
+        </div>
+        <div class="person">
+          <img src="assets/instructor-2.jpg" alt="Instructor 2" />
+          <h4>Arjun Patel</h4>
+          <p>Hatha & Breathwork specialist</p>
+        </div>
+        <div class="person">
+          <img src="assets/instructor-3.jpg" alt="Instructor 3" />
+          <h4>Leah Gomez</h4>
+          <p>Meditation & Mindfulness</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / SIGNUP -->
+    <section id="contact" class="container contact-section">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <h2>Start your journey</h2>
+          <p>Sign up for a free 7-day trial and get personalized recommendations.</p>
+        </div>
+
+        <form id="signup" class="contact-form" novalidate>
+          <label>
+            <span class="sr-only">Full name</span>
+            <input name="name" type="text" placeholder="Full name" required />
+          </label>
+          <label>
+            <span class="sr-only">Email</span>
+            <input name="email" type="email" placeholder="Email address" required />
+          </label>
+          <label>
+            <span class="sr-only">Goal</span>
+            <select name="goal" required>
+              <option value="">Choose goal</option>
+              <option>Flexibility</option>
+              <option>Strength</option>
+              <option>Stress relief</option>
+            </select>
+          </label>
+
+          <button type="submit" class="btn-primary full">Get Started — Free 7 days</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> YogaFlow • Built with care</p>
+      <nav class="footer-nav">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
