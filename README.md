@@ -29,5 +29,5 @@ This project represents a Yoga App webpage that helps users explore yoga poses, 
 Designed for a calm, minimal, and healthy lifestyle experience.
 
 here is the mockups of this webpage
-desktop:
-<!-- Uploading "mockuuups-macbook-air-mockup-on-a-glass-surface.jpeg"... -->
+*ipad*:
+![Image](https://github.com/user-attachments/assets/aa837a79-da16-4f0f-a5d1-a744682b3c26)
