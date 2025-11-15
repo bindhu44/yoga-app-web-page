@@ -30,3 +30,4 @@ Designed for a calm, minimal, and healthy lifestyle experience.
 
 here is the mockups of this webpage
 desktop:
+<!-- Uploading "mockuuups-macbook-air-mockup-on-a-glass-surface.jpeg"... -->
