@@ -31,3 +31,5 @@ Designed for a calm, minimal, and healthy lifestyle experience.
 here is the mockups of this webpage
 *ipad*:
 ![Image](https://github.com/user-attachments/assets/aa837a79-da16-4f0f-a5d1-a744682b3c26)
+
+*phone*:
