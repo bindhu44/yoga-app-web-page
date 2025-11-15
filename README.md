@@ -36,3 +36,8 @@ here is the mockups of this webpage
 <img width="967" height="2000" alt="Image" src="https://github.com/user-attachments/assets/3808f78a-cba4-4d07-926f-f2d30a49dc4a" />
 
 *desktop*:
+![Image](https://github.com/user-attachments/assets/afdeee18-c168-4f05-b05a-d313d2b842c8)
+
+🌟 Support
+If you like this project, please ⭐ star the repository
+It helps others discover it and supports my work!
