@@ -33,3 +33,6 @@ here is the mockups of this webpage
 ![Image](https://github.com/user-attachments/assets/aa837a79-da16-4f0f-a5d1-a744682b3c26)
 
 *phone*:
+<img width="967" height="2000" alt="Image" src="https://github.com/user-attachments/assets/3808f78a-cba4-4d07-926f-f2d30a49dc4a" />
+
+*desktop*:
